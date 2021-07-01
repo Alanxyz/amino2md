@@ -22,6 +22,8 @@ Link del blog indicado en `-u`.
 python3 amino2md.py -u https://aminoapps.com/c/comunity/page/blog/title/id
 ```
 
+El blog se descargara en una carpeta `blogs/` que sera creada si no existe.
+
 **Descarga de varios blogs**
 
 ```bash
@@ -29,3 +31,6 @@ python3 amino2md.py -f my_blogs.txt
 ```
 
 Donde `my_blogs.txt` es un archivo de texto con links de blogs, uno en cada linea.
+
+Los blogs se descargara en una carpeta `blogs/` que sera creada si no existe.
+
